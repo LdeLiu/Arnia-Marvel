@@ -1,6 +1,6 @@
 const timestamp = (new Date()).getTime()
-const publicKey = 'c7166cd7fb5a9b9db8da09282cfa7cc3'
-const privateKey = '81611f6e95916b995d81c2ede7931cf84e6e951e'
+const publicKey = ''
+const privateKey = ''
 const hash = timestamp + privateKey + publicKey
 const hashMd5 = MD5.generate(hash)
 
